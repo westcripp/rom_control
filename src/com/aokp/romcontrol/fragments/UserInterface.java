@@ -107,7 +107,6 @@ public class UserInterface extends AOKPPreferenceFragment implements OnPreferenc
     private static final CharSequence PREF_POWER_CRT_SCREEN_OFF = "system_power_crt_screen_off";
     private static final CharSequence PREF_STATUSBAR_HIDDEN = "statusbar_hidden";
 
-    private static int STOCK_FONT_SIZE = 16;
     private static final int REQUEST_PICK_WALLPAPER = 201;
     //private static final int REQUEST_PICK_CUSTOM_ICON = 202; //unused
     private static final int REQUEST_PICK_BOOT_ANIMATION = 203;
@@ -141,7 +140,6 @@ public class UserInterface extends AOKPPreferenceFragment implements OnPreferenc
     ListPreference mCrtMode;
     CheckBoxPreference mCrtOff;
     CheckBoxPreference mStatusBarHide;
-    ListPreference mFontsize;
     Preference mLcdDensity;
 
     private AnimationDrawable mAnimationPart1;
@@ -290,11 +288,6 @@ public class UserInterface extends AOKPPreferenceFragment implements OnPreferenc
                 com.android.internal.R.bool.config_unplugTurnsOnScreen)) {
             ((PreferenceGroup) findPreference(PREF_DISPLAY)).removePreference(mWakeUpWhenPluggedOrUnplugged);
         }
-
-        mFontsize = (ListPreference) findPreference("status_bar_fontsize");
-        mFontsize.setOnPreferenceChangeListener(this);
-        mFontsize.setValue(Integer.toString(Settings.System.getInt(mContentRes,
-                Settings.System.STATUSBAR_FONT_SIZE, STOCK_FONT_SIZE)));
 
         if (isTablet(mContext)) {
             mStatusbarSliderPreference.setEnabled(false);
@@ -988,12 +981,6 @@ public class UserInterface extends AOKPPreferenceFragment implements OnPreferenc
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.SYSTEM_POWER_CRT_MODE, crtMode);
             mCrtMode.setSummary(mCrtMode.getEntries()[index]);
-            return true;
-        } else if (preference == mFontsize) {
-            int val = Integer.parseInt((String) newValue);
-            Settings.System.putInt(mContentRes,
-                    Settings.System.STATUSBAR_FONT_SIZE, val);
-            Helpers.restartSystemUI();
             return true;
         }
         return false;
