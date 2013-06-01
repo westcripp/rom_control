@@ -618,31 +618,6 @@
         <item>360</item>
         <item>480</item>
     </string-array>
-    <string-array name="statusbar_fontsize_entries">
-        <item>@string/font_8dp</item>
-        <item>@string/font_10dp</item>
-        <item>@string/font_12dp</item>
-        <item>@string/font_14dp</item>
-        <item>@string/font_16dp</item>
-        <item>@string/font_18dp</item>
-        <item>@string/font_20dp</item>
-        <item>@string/font_22dp</item>
-        <item>@string/font_24dp</item>
-        <item>@string/font_26dp</item>
-    </string-array>
-
-    <string-array name="statusbar_fontsize_values">
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>16</item>
-        <item>18</item>
-        <item>20</item>
-        <item>22</item>
-        <item>24</item>
-        <item>26</item>
-    </string-array>
     <string-array name="weather_statusbar_location_entries" translatable="false">
         <item>@string/above_carrier_text</item>
         <item>@string/weather_panel</item>
@@ -775,27 +750,17 @@
         <item>300</item>
         <item>320</item>
         <item>340</item>
-        <item>360</item>
-        <item>380</item>
-        <item>400</item>
-        <item>420</item>
-        <item>440</item>
-        <item>460</item>
-        <item>480</item>
-        <item>500</item>
         <item>@string/custom_density</item>
     </string-array>
     <string-array name="lcd_density_stock_entries" translatable="false">
         <item>160 -- mdpi</item>
         <item>240 -- hdpi</item>
         <item>320 -- xhdpi</item>
-        <item>480 -- xxhdpi</item>
     </string-array>
     <string-array name="lcd_density_stock_values" translatable="false">
         <item>160</item>
         <item>240</item>
         <item>320</item>
-        <item>480</item>
     </string-array>
     <string-array name="lockscreen_dialog_entries" translatable="false">
         <item>@string/none</item>

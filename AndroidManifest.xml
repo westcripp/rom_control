@@ -223,14 +223,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".fragments.DensityChanger"
-            android:label="@string/lcd_density_wizard" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-
         <receiver
             android:name=".service.BootReceiver">
             <intent-filter>
@@ -273,6 +265,8 @@
         <activity android:name="com.jbirdvegas.mgerrit.PatchSetViewerActivity"
             android:theme="@android:style/Theme.Holo.Light"/>
         <activity android:name="com.jbirdvegas.mgerrit.Prefs"
+            android:theme="@android:style/Theme.Holo.Light"/>
+        <activity android:name="com.jbirdvegas.mgerrit.AOKPChangelog"
             android:theme="@android:style/Theme.Holo.Light"/>
     </application>
 
