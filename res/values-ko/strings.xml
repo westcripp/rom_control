@@ -585,7 +585,6 @@
     <string name="led_color_click">Click on the LED to change the color</string>
     <string name="title_led_screen_on">Flash LED while screen is on</string>
     <string name="led_custom_app">Selected App</string>
->>>>>>> e1c2566... ROMControl: Full reformat based on AOSP guidelines
     <string name="led_custom_default">Default</string>
     <string name="led_change_app">바꾸기</string>
     <string name="led_delete_app">삭제</string>
