@@ -77,7 +77,6 @@
     <string name="aokp_irc_summary">\#teamkang @ irc.freenode.net</string>
     <string name="about_aokp">AOKP 정보</string>
     <string name="about_aokp_summary">@null</string>
-<<<<<<< HEAD
     <string name="enable_volume_options">볼륨 패널 활성화</string>
     <string name="status_bar_notif_count_title">알림 개수 표시</string>
     <string name="status_bar_notif_count_summary">상태바에서 알림 개수를 표시</string>
@@ -134,7 +133,6 @@
     <string name="custom_density_dialog_summary">LCD 밀도를 변경하면 예기치못한 오류가 발생할수 있습니다.마켓어플이 호환되지 않는다면 1단계 프로세스로 돌아가서 다시시작하십시오.</string>
     <string name="custom_density_dialog_button_got">알았어요!</string>
     <string name="custom_density_dialog_button_reboot">지금 다시부팅</string>
-=======
     <string name="donate_aokp">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG
     </string>
     <string name="github_aokp">https://github.com/AOKP</string>
@@ -302,7 +300,6 @@
     <string name="custom_density_dialog_button_reboot">Reboot now</string>
 
     <!-- Statusbar | Toggles -->
->>>>>>> e1c2566... ROMControl: Full reformat based on AOSP guidelines
     <string name="toggle_style_title">토글 스타일</string>
     <string name="toggle_style_summary">아이콘 또는 텍스트 스타일의 토글을 설정합니다.</string>
     <string name="toggles_layout_title">토글 레이아웃</string>
@@ -320,8 +317,6 @@
     <string name="toggle_btn_disabled_color_title">비활성화된 인디케이터 색상</string>
     <string name="toggle_btn_background_title">토글 배경 투명도</string>
     <string name="toggle_text_color_title">토글 텍스트 색상</string>
-<<<<<<< HEAD
-=======
     <string name="toggle_favcontact_title">즐겨찾는 연락처</string>
     <string name="toggle_favcontact_summary">즐겨찾는 연락처를 추가합니다.</string>
     <string name="toggle_enable_fasttoggle_title">빠른 토글 활성화</string>
@@ -370,7 +365,6 @@
     <string name="both_collapse">Both click and long click</string>
 
     <!-- Statusbar | Clock -->
->>>>>>> e1c2566... ROMControl: Full reformat based on AOSP guidelines
     <string name="clock_title_enable">시계 스타일</string>
     <string name="title_clock_ampm_entries">AM/PM 스타일</string>
     <string name="enable_clock_weekday">요일 표시 설정</string>
@@ -461,7 +455,6 @@
     <string name="glow_times_superquick">매우 빠른</string>
     <string name="glow_times_quick">빠른</string>
     <string name="glow_times_normal">일반</string>
-<<<<<<< HEAD
     <string name="led_on">LED 켜기</string>
     <string name="led_time_on">라이트 켜지는 시간</string>
     <string name="led_off">LED 끄기</string>
@@ -470,7 +463,6 @@
     <string name="led_color_click">색상을 변경하기 위해서 LED 클릭</string>
     <string name="title_led_screen_on">화면이 켜져있는 동안 LED 켜짐</string>
     <string name="led_custom_app">어플 선택</string>
-=======
     <string name="navbar_widgets_instructions">옆으로 밀어 보기가능 - 위젯을 고르시오</string>
     <string name="navbar_widgets_reset">위젯 리셋</string>
     <string name="navbar_widget_summary">위젯 %1$s 으로 %2$s</string>
@@ -601,7 +593,6 @@
     <string name="led_custom_title">사용자지정 LED 어플</string>
     <string name="led_custom_message">"앱을 바꾸시겠습니까: "</string>
     <string name="led_edit_button">-</string>
-<<<<<<< HEAD
     <string name="led_test_notification">LED 테스트</string>
     <string name="led_test_notification_message_now">"지금 LED 테스트: "</string>
     <string name="led_test_notification_message_note">".  LED를 볼 수 있도록 화면을 꺼주기 바랍니다. 당신이 LED 색상을 볼때까지이 팝업에서 확인을 누르하지 마십시오."</string>
@@ -609,7 +600,6 @@
     <string name="title_charging_led_on">충전중 LED활성화(다시부팅 필요)</string>
     <string name="led_change_brightness">밝기 변경</string>
     <string name="led_brightness_default">기본 밝기: 31</string>
-=======
     <string name="led_test_notification">Test LED</string>
     <string name="led_test_notification_message_now">"Now testing LED for: "</string>
     <string name="led_test_notification_message_note">". Please turn off your screen to see the LED. Don't hit OK on
@@ -621,7 +611,6 @@
     <string name="led_brightness_default">Default brightness: 31</string>
 
     <!-- Sound -->
->>>>>>> e1c2566... ROMControl: Full reformat based on AOSP guidelines
     <string name="less_notification_sounds_title">알림소리 주기</string>
     <string name="less_notification_sounds_summary">각 어플의 알림소리가 설정한 값으로 재생</string>
     <string name="title_headphone_audio_mode">헤드폰 연결시 행동</string>
@@ -645,7 +634,6 @@
     </string>
     <string name="summary_phone_flip_mode">전화를 받을때 폰을 뒤집으면 무음이 될것입니다.</string>
     <string name="title_phone_flip_mode">전화받기 무음 모드</string>
-<<<<<<< HEAD
     <string name="lockscreen_quick_unlock_control_title">빠른 pin 잠금해제</string>
     <string name="lockscreen_quick_unlock_control_summary">엔터 버튼을 누르지 않고 pin/비밀번호 잠금해제를 수행합니다.</string>
     <string name="lockscreen_menu_unlock_title">메뉴 잠금해제</string>
@@ -812,7 +800,6 @@ Examples: New York,NY // New York, NY // 10033 // London, England"</string>
     <string name="performance_daily_reboot_title">매일 다시부팅</string>
     <string name="performance_daily_reboot_summary">다시부팅 예정 %1$s</string>
     <string name="performance_daily_reboot_summary_unscheduled">예약되지 않음</string>
-=======
 
     <!-- Lockscreen -->
     <string name="lock_widgets_short">Lockscreen Widgets</string>
@@ -1250,5 +1237,4 @@ Examples: New York,NY // New York, NY // 10033 // London, England"</string>
     <!-- dynamic changelog -->
     <string name="dynamic_changelog_title">Dynamic ChangeLog</string>
     <string name="dynamic_changelog_summary">Interactive changelog pulled live from our Gerrit instance</string>
->>>>>>> e1c2566... ROMControl: Full reformat based on AOSP guidelines
 </resources>
