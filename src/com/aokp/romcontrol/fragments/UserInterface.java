@@ -28,11 +28,8 @@ import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
-<<<<<<< HEAD
 import android.preference.PreferenceActivity;
 import android.preference.Preference.OnPreferenceChangeListener;
-=======
->>>>>>> e1c2566... ROMControl: Full reformat based on AOSP guidelines
 import android.preference.TwoStatePreference;
 import android.provider.MediaStore;
 import android.provider.Settings;
