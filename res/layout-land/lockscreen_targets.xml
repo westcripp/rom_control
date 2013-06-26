@@ -55,8 +55,14 @@
                     android:layout_height="30dip"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
+<<<<<<< HEAD
                     android:layout_marginEnd="4dip"
                     android:padding="4dip" />
+=======
+                    android:layout_marginEnd="0dip"
+                    android:paddingTop="2dip"
+                    android:paddingLeft="16dip" />
+>>>>>>> 313cca5... ROMControl: Lockscreen Wallpaper [MajorlyWIP]
             </RelativeLayout>
 
             <RelativeLayout
