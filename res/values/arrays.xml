@@ -234,6 +234,10 @@
         <item>@string/cm_circle</item>
         <item>@string/cm_circle_percentage</item>
         <item>@string/circle_dotted_percentage</item>
+        <item>@string/brick</item>
+        <item>@string/planet</item>
+        <item>@string/racing</item>
+        <item>@string/slider</item>
         <item>@string/dont_show</item>
     </string-array>
     <string-array name="battery_icon_values" translatable="false">
@@ -246,6 +250,10 @@
         <item>6</item>	        
         <item>7</item>
         <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
     </string-array>
 
     <!-- NavBar -->
